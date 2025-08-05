@@ -1,1 +1,3 @@
-export const schemaTypes = []
+import {technicalDocumentType} from './TechnicalDocumentType'
+
+export const schemaTypes = [technicalDocumentType]
