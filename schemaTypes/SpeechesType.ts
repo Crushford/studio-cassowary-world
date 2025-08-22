@@ -19,7 +19,7 @@ export const speechType = defineType({
       validation: (rule) => rule.required(),
     }),
     defineField({
-      name: 'image',
+      name: 'headerImage',
       title: 'Header Image',
       type: 'image',
     }),
